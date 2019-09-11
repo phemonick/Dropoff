@@ -1,0 +1,1113 @@
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    #body {
+        display: flex;
+        flex-direction: column;
+        margin: 0px 60px 0px 60px;
+        /* background-color: #e7e8f1a8; */
+        /* background-color: bisque; */
+    }
+    
+    li {
+        list-style: none;
+    }
+    
+    #header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 30px 0px 30px 0px;
+    }
+    
+    .header a {
+        text-decoration: none;
+        color: black;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    
+    .header2 a {
+        border: 1.49px solid black;
+        /* box-shadow: 5px; */
+        padding: 10px 26px 10px 25px;
+        border-radius: 2px;
+    }
+    
+    #bac_img {
+        background-image: url("./Abraj-al-Bait-Towers\ \(1\).jfif");
+        height: 595px;
+        /* width: 100%; */
+        /* background-attachment: fixed; */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0px 100px 0px 120px;
+        /* align-items: center; */
+    }
+    
+    .bacimg1 {
+        display: flex;
+        flex-direction: column;
+        width: 36%;
+        padding: 100px 0px 0px 0px;
+        color: white;
+    }
+    
+    #text1 {
+        font-size: 55px;
+        line-height: 50px;
+        /* padding: 0px 10px 0px 0px; */
+    }
+    
+    #text2 {
+        font-size: 20px;
+        line-height: 25px;
+        padding: 20px 0px 0px 0px;
+    }
+    
+    .bacimg2 {
+        display: flex;
+        flex-direction: row;
+        padding: 30px 0px 0px 0px;
+        font-size: 18px;
+        line-height: 10px;
+        height: 100%;
+        justify-content: space-between;
+        align-items: flex-end;
+        /* width: 1000px; */
+    }
+    
+    #text3 {
+        width: 25%;
+        padding: 0px 0px 30px 0px;
+        color: white;
+        line-height: 25px;
+    }
+    
+    #text4 {
+        background-color: #ffbf00;
+        /* color: black; */
+        padding: 30px 0px 50px 50px;
+        width: 40%;
+        position: relative;
+        /* line-height: 10px; */
+        /* bottom: 70px; */
+    }
+    
+    .cond_driv1 {
+        line-height: 50px;
+        font-size: 35px;
+        padding: 0px 0px 30px 0px;
+    }
+    
+    .cond_driv2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        position: absolute;
+        top: 130px;
+        /* background-color: white; */
+        width: 80%;
+    }
+    
+    .hov {
+        padding: 40px 10px 30px 20px;
+        width: 70%;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    
+    .hov:hover {
+        background-color: white;
+    }
+    
+    #hov_main {
+        /* display: flex; */
+        flex-direction: column;
+        position: absolute;
+        display: none;
+        padding: 60px 0px 50px 0px;
+        line-height: 20px;
+        left: -50px;
+        top: 81px;
+        /* background-color: white; */
+        width: 455px;
+        align-items: center;
+        font-size: 16px;
+        font-weight: 0px;
+    }
+    
+    #hov_main li {
+        padding: 5px 0px 5px 0px;
+    }
+    
+    .formcontent {
+        padding: 10px 10px 10px 10px;
+        /* width: 100%; */
+        width: 305px;
+        font-size: 16px;
+    }
+    
+    .formcont3 {
+        display: flex;
+        /* text-align: left; */
+    }
+    
+    .formcont3 span {
+        padding: 0px 0px 10px 20px;
+        font-size: 15px;
+    }
+    
+    .drive_hov:hover #hov_main {
+        display: flex;
+        background-color: white;
+        /* width: 100%; */
+    }
+    
+    .comp_hov:hover #hov_main {
+        display: flex;
+        background-color: white;
+        /* width: 100%; */
+    }
+    
+    .formcont4 {
+        color: #ffbf00;
+        background-color: black;
+        border: none;
+        cursor: pointer;
+        padding: 15px 0px 15px 0px;
+        font-size: 13px;
+    }
+    
+    button:focus {
+        outline: 0;
+    }
+    
+    #content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px 100px 20px 100px;
+        background-color: #8e8d8d0d;
+    }
+    
+    #content1 {
+        display: flex;
+        flex-direction: column;
+        width: 32%;
+        font-size: 16px;
+        padding-top: 40px;
+    }
+    
+    carousel-container {
+        width: 100%;
+        margin: auto;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .carousel-slide {
+        display: flex;
+        width: 100%;
+        height: 700px;
+    }
+    
+    #last_cont {
+        display: flex;
+        flex-direction: column;
+        padding: 200px 0px 0px 0px;
+        width: 100%;
+        align-items: center;
+        background-color: #8e8d8d0d;
+    }
+    
+    .last_cont1 {
+        font-size: 35px;
+        font-weight: bold;
+        padding: 0px 0px 40px 0px;
+    }
+    
+    .last_cont2 {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        /* text-align: left; */
+    }
+    
+    #sub_cont {
+        display: flex;
+        flex-direction: row;
+        /* justify-content: space-around; */
+    }
+    
+    .arr {
+        width: 50%;
+    }
+    
+    .sub_cont {
+        width: 100%;
+    }
+    
+    #sub_cont li {
+        padding: 5px 0px 5px 0px;
+    }
+    
+    .last_cont3 {
+        text-align: center;
+        padding: 55px 0px 55px 0px;
+        line-height: 30px;
+    }
+    
+    #footer_cont {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 40px 0px 40px 0px;
+        color: white;
+        /* background-color: #8e8d8d0d; */
+        background-color: black;
+    }
+    
+    #footer_cont li {
+        padding: 0px 5px 0px 0px;
+        font-size: 18px;
+    }
+    
+    #footer_cont a {
+        text-decoration: none;
+        border: 1.49px solid black;
+        /* box-shadow: 5px; */
+        padding: 12px 20px 12px 20px;
+        border-radius: 5px;
+        /* width: 100%; */
+        background-color: #ffbf00;
+        font-size: 12px;
+        font-weight: bold;
+        color: black;
+    }
+    
+    #footer {
+        display: flex;
+        flex-direction: row;
+        padding: 20px 0px 20px 0px;
+        justify-content: space-around;
+    }
+    
+    .footer2 {
+        margin-left: auto;
+    }
+    
+    .footer {
+        padding: 0px 10px 0px 0px;
+    }
+    
+    .footer a {
+        text-decoration: none;
+        color: black;
+    }
+    /* media 1085px scren */
+    
+    @media only screen and (max-width:1085px) {
+        #bac_img {
+            background-image: url("./Abraj-al-Bait-Towers\ \(1\).jfif");
+            height: 595px;
+            /* width: 100%; */
+            /* background-attachment: fixed; */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 0px 70px 0px 80px;
+            /* align-items: center; */
+        }
+        .bacimg1 {
+            display: flex;
+            flex-direction: column;
+            width: 36%;
+            padding: 100px 0px 0px 0px;
+            color: white;
+        }
+        .bacimg2 {
+            display: flex;
+            flex-direction: row;
+            padding: 30px 0px 0px 0px;
+            font-size: 18px;
+            line-height: 10px;
+            height: 100%;
+            justify-content: space-between;
+            align-items: flex-end;
+            /* width: 1000px; */
+            width: 100%;
+        }
+        #text3 {
+            width: 30%;
+            padding: 0px 0px 30px 0px;
+            color: white;
+            line-height: 25px;
+        }
+        #text4 {
+            background-color: #ffbf00;
+            /* color: black; */
+            padding: 30px 0px 50px 50px;
+            width: 45%;
+            position: relative;
+            /* line-height: 10px; */
+            /* bottom: 70px; */
+        }
+        .cond_driv1 {
+            line-height: 45px;
+            font-size: 35px;
+            padding: 0px 0px 30px 0px;
+        }
+        .cond_driv2 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            position: absolute;
+            top: 130px;
+            /* background-color: white; */
+            width: 80%;
+        }
+        .hov {
+            padding: 40px 10px 30px 20px;
+            width: 70%;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .hov:hover {
+            background-color: white;
+        }
+        #hov_main {
+            /* display: flex; */
+            flex-direction: column;
+            position: absolute;
+            display: none;
+            padding: 50px 450px 50px 30px;
+            line-height: 20px;
+            left: -50px;
+            top: 70px;
+            /* background-color: white; */
+            width: 455px;
+            align-items: center;
+            font-size: 16px;
+            font-weight: 0px;
+        }
+        .drive_hov:hover #hov_main {
+            display: flex;
+            background-color: white;
+            width: 100%;
+        }
+        .comp_hov:hover #hov_main {
+            display: flex;
+            background-color: white;
+            width: 100%;
+        }
+        .formcont4 {
+            color: #ffbf00;
+            background-color: black;
+            border: none;
+            cursor: pointer;
+            padding: 15px 0px 15px 0px;
+            font-size: 13px;
+        }
+        button:focus {
+            outline: 0;
+        }
+        #content {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 20px 40px 20px 40px;
+            background-color: #8e8d8d0d;
+        }
+        #content1 {
+            display: flex;
+            flex-direction: column;
+            width: 32%;
+            font-size: 16px;
+            padding-top: 40px;
+        }
+    }
+    /* max width 1080 */
+    
+    @media only screen and (max-width:1080px) {
+        #bac_img {
+            background-image: url("./Abraj-al-Bait-Towers\ \(1\).jfif");
+            height: 595px;
+            /* width: 100%; */
+            /* background-attachment: fixed; */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 0px 70px 0px 80px;
+            /* align-items: center; */
+        }
+        .bacimg1 {
+            display: flex;
+            flex-direction: column;
+            width: 36%;
+            padding: 100px 0px 0px 0px;
+            color: white;
+        }
+        .bacimg2 {
+            display: flex;
+            flex-direction: row;
+            padding: 30px 0px 0px 0px;
+            font-size: 18px;
+            line-height: 10px;
+            height: 100%;
+            justify-content: space-between;
+            align-items: flex-end;
+            /* width: 1000px; */
+            width: 100%;
+        }
+        #text3 {
+            width: 30%;
+            padding: 0px 0px 30px 0px;
+            color: white;
+            line-height: 25px;
+        }
+        #text4 {
+            background-color: #ffbf00;
+            /* color: black; */
+            padding: 30px 0px 50px 20px;
+            width: 45%;
+            position: relative;
+            /* line-height: 10px; */
+            /* bottom: 70px; */
+        }
+        .cond_driv1 {
+            line-height: 45px;
+            font-size: 35px;
+            padding: 0px 0px 30px 0px;
+        }
+        .cond_driv2 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            position: absolute;
+            top: 120px;
+            /* background-color: white; */
+            width: 90%;
+        }
+        .hov {
+            padding: 40px 10px 30px 10px;
+            width: 60%;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .hov:hover {
+            background-color: white;
+        }
+        .comp_hov {
+            padding: 40px 10px 30px 40px;
+        }
+        #hov_main {
+            /* display: flex; */
+            flex-direction: column;
+            position: absolute;
+            display: none;
+            padding: 50px 20px 50px 20px;
+            line-height: 20px;
+            left: -20px;
+            top: 80px;
+            /* background-color: white; */
+            width: 455px;
+            align-items: center;
+            font-size: 16px;
+            font-weight: 0px;
+        }
+        .drive_hov:hover #hov_main {
+            display: flex;
+            background-color: white;
+            width: 100%;
+        }
+        .comp_hov:hover #hov_main {
+            display: flex;
+            background-color: white;
+            width: 100%;
+        }
+        .formcont4 {
+            color: #ffbf00;
+            background-color: black;
+            border: none;
+            cursor: pointer;
+            padding: 15px 0px 15px 0px;
+            font-size: 13px;
+        }
+        button:focus {
+            outline: 0;
+        }
+        #content {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 20px 40px 20px 40px;
+            background-color: #8e8d8d0d;
+        }
+        #content1 {
+            display: flex;
+            flex-direction: column;
+            width: 32%;
+            font-size: 16px;
+            padding-top: 40px;
+        }
+    }
+    /* max width 1024 */
+    
+    @media only screen and (max-width:1070px) {
+        #bac_img {
+            background-image: url("./Abraj-al-Bait-Towers\ \(1\).jfif");
+            height: 595px;
+            /* width: 100%; */
+            /* background-attachment: fixed; */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 0px 50px 0px 60px;
+            /* align-items: center; */
+        }
+        .bacimg1 {
+            display: flex;
+            flex-direction: column;
+            width: 36%;
+            padding: 100px 0px 0px 0px;
+            color: white;
+        }
+        .bacimg2 {
+            display: flex;
+            flex-direction: row;
+            padding: 30px 0px 0px 0px;
+            font-size: 18px;
+            line-height: 10px;
+            height: 100%;
+            justify-content: space-between;
+            align-items: flex-end;
+            /* width: 1000px; */
+            width: 100%;
+        }
+        #text3 {
+            width: 30%;
+            padding: 0px 0px 30px 0px;
+            color: white;
+            line-height: 25px;
+        }
+        #text4 {
+            background-color: #ffbf00;
+            /* color: black; */
+            padding: 30px 0px 50px 20px;
+            width: 45%;
+            position: relative;
+            /* line-height: 10px; */
+            /* bottom: 70px; */
+        }
+        .cond_driv1 {
+            line-height: 45px;
+            font-size: 35px;
+            padding: 0px 0px 30px 0px;
+        }
+        .cond_driv2 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            position: absolute;
+            top: 120px;
+            /* background-color: white; */
+            width: 90%;
+        }
+        .hov {
+            padding: 40px 10px 30px 15px;
+            width: 60%;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .hov:hover {
+            background-color: white;
+        }
+        .comp_hov {
+            padding: 40px 0px 30px 30px;
+        }
+        #hov_main {
+            /* display: flex; */
+            flex-direction: column;
+            position: absolute;
+            display: none;
+            padding: 50px 20px 50px 20px;
+            line-height: 20px;
+            left: -20px;
+            top: 80px;
+            /* background-color: white; */
+            width: 455px;
+            align-items: center;
+            font-size: 16px;
+            font-weight: 0px;
+        }
+        .drive_hov:hover #hov_main {
+            display: flex;
+            background-color: white;
+            width: 100%;
+        }
+        .comp_hov:hover #hov_main {
+            display: flex;
+            background-color: white;
+            width: 100%;
+        }
+        .formcont4 {
+            color: #ffbf00;
+            background-color: black;
+            border: none;
+            cursor: pointer;
+            padding: 15px 0px 15px 0px;
+            font-size: 13px;
+        }
+        button:focus {
+            outline: 0;
+        }
+        #content {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 20px 40px 20px 40px;
+            background-color: #8e8d8d0d;
+        }
+        #content1 {
+            display: flex;
+            flex-direction: column;
+            width: 32%;
+            font-size: 16px;
+            padding-top: 40px;
+        }
+    }
+    /* max width 800px */
+    
+    @media only screen and (max-width:1017px) {
+        #body {
+            display: flex;
+            flex-direction: column;
+            margin: 0px 30px 0px 30px;
+            /* background-color: #e7e8f1a8; */
+            /* background-color: bisque; */
+        }
+        #bac_img {
+            background-image: url("./Abraj-al-Bait-Towers\ \(1\).jfif");
+            height: 595px;
+            /* width: 100%; */
+            /* background-attachment: fixed; */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 0px 30px 0px 40px;
+            /* align-items: center; */
+        }
+        .bacimg1 {
+            display: flex;
+            flex-direction: column;
+            width: 36%;
+            padding: 100px 0px 0px 0px;
+            color: white;
+        }
+        .bacimg2 {
+            display: flex;
+            flex-direction: row;
+            padding: 30px 0px 0px 0px;
+            font-size: 18px;
+            line-height: 10px;
+            height: 100%;
+            justify-content: space-between;
+            align-items: flex-end;
+            /* width: 1000px; */
+            width: 100%;
+        }
+        #text3 {
+            width: 30%;
+            padding: 0px 0px 30px 0px;
+            color: white;
+            line-height: 25px;
+        }
+        #text4 {
+            background-color: #ffbf00;
+            /* color: black; */
+            padding: 30px 0px 50px 20px;
+            width: 45%;
+            position: relative;
+            /* line-height: 10px; */
+            /* bottom: 70px; */
+        }
+        .cond_driv1 {
+            line-height: 30px;
+            font-size: 30px;
+            padding: 0px 0px 30px 0px;
+        }
+        .cond_driv2 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            position: absolute;
+            top: 90px;
+            /* background-color: white; */
+            width: 90%;
+        }
+        .hov {
+            padding: 30px 10px 30px 15px;
+            width: 60%;
+            font-size: 15px;
+            font-weight: bold;
+            line-height: 20px;
+        }
+        .hov:hover {
+            background-color: white;
+        }
+        .comp_hov {
+            padding: 30px 0px 30px 30px;
+        }
+        #hov_main {
+            /* display: flex; */
+            flex-direction: column;
+            position: absolute;
+            display: none;
+            padding: 50px 20px 50px 20px;
+            line-height: 20px;
+            left: -20px;
+            top: 80px;
+            /* background-color: white; */
+            width: 350px;
+            align-items: center;
+            font-size: 16px;
+            font-weight: 0px;
+        }
+        .drive_hov:hover #hov_main {
+            display: flex;
+            background-color: white;
+            width: 100%;
+        }
+        .comp_hov:hover #hov_main {
+            display: flex;
+            background-color: white;
+            width: 100%;
+        }
+        .formcontent {
+            padding: 10px 10px 10px 10px;
+            /* width: 100%; */
+            width: 250px;
+            font-size: 16px;
+        }
+        .formcont4 {
+            color: #ffbf00;
+            background-color: black;
+            border: none;
+            cursor: pointer;
+            padding: 15px 0px 15px 0px;
+            font-size: 13px;
+        }
+        button:focus {
+            outline: 0;
+        }
+        #content {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 20px 40px 20px 40px;
+            background-color: #8e8d8d0d;
+        }
+        #content1 {
+            display: flex;
+            flex-direction: column;
+            width: 40%;
+            font-size: 16px;
+            padding-top: 40px;
+        }
+    }
+    
+    @media only screen and (max-width:800px) {
+        #hov_main {
+            /* display: flex; */
+            flex-direction: column;
+            position: absolute;
+            display: none;
+            padding: 50px 20px 50px 20px;
+            line-height: 20px;
+            left: -20px;
+            top: 120px;
+            /* background-color: white; */
+            width: 350px;
+            align-items: center;
+            font-size: 16px;
+            font-weight: 0px;
+        }
+    }
+    /* 400 max width */
+    
+    @media only screen and (max-width: 500px) {
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        #body {
+            display: flex;
+            flex-direction: column;
+            margin: 0px 0px 0px 0px;
+        }
+        li {
+            list-style: none;
+        }
+        #header {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin: 30px 10px 20px 10px;
+        }
+        .header a {
+            text-decoration: none;
+            color: black;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .header2 a {
+            border: 1.49px solid black;
+            /* box-shadow: 5px; */
+            padding: 10px 10px 10px 10px;
+            border-radius: 2px;
+        }
+        #bac_img {
+            background-image: url("./Abraj-al-Bait-Towers\ \(1\).jfif");
+            height: 500px;
+            width: 95%;
+            /* background-attachment: fixed; */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 40px 10px 0px 20px;
+            /* align-items: center; */
+            margin: 0px 0px 60px 0px;
+        }
+        .bacimg1 {
+            display: flex;
+            flex-direction: column;
+            width: 90%;
+            padding: 100px 0px 0px 0px;
+            color: white;
+        }
+        .bacimg2 {
+            display: flex;
+            flex-direction: column;
+            padding: 30px 0px 0px 0px;
+            font-size: 18px;
+            line-height: 10px;
+            height: 100%;
+            justify-content: space-between;
+            align-items: flex-end;
+            /* width: 1000px; */
+            width: 90%;
+            margin: 70px 0px 0px 20px;
+        }
+        #text1 {
+            font-size: 60px;
+            line-height: 50px;
+            /* padding: 0px 10px 0px 0px; */
+        }
+        #text2 {
+            font-size: 20px;
+            line-height: 25px;
+            padding: 20px 0px 0px 0px;
+        }
+        #text3 {
+            width: 100%;
+            padding: 0px 0px 30px 0px;
+            color: white;
+            line-height: 25px;
+        }
+        #text4 {
+            background-color: #ffbf00;
+            padding: 50px 0px 60px 20px;
+            width: 100%;
+            position: relative;
+        }
+        .cond_driv1 {
+            line-height: 30px;
+            font-size: 30px;
+            padding: 0px 0px 30px 0px;
+        }
+        .cond_driv2 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            position: absolute;
+            top: 120px;
+            /* background-color: white; */
+            width: 90%;
+        }
+        .hov {
+            padding: 40px 10px 30px 15px;
+            width: 60%;
+            font-size: 15px;
+            font-weight: bold;
+            line-height: 20px;
+        }
+        .hov:hover {
+            background-color: white;
+        }
+        .comp_hov {
+            padding: 40px 0px 30px 30px;
+        }
+        #hov_main {
+            /* display: flex; */
+            flex-direction: column;
+            position: absolute;
+            display: none;
+            padding: 50px 20px 50px 20px;
+            line-height: 20px;
+            left: -20px;
+            top: 80px;
+            /* background-color: white; */
+            width: 350px;
+            align-items: center;
+            font-size: 16px;
+            font-weight: 0px;
+        }
+        .drive_hov:hover #hov_main {
+            display: flex;
+            background-color: white;
+            width: 100%;
+        }
+        .comp_hov:hover #hov_main {
+            display: flex;
+            background-color: white;
+            width: 100%;
+        }
+        .formcontent {
+            padding: 10px 10px 10px 10px;
+            /* width: 100%; */
+            width: 250px;
+            font-size: 16px;
+        }
+        .formcont4 {
+            color: #ffbf00;
+            background-color: black;
+            border: none;
+            cursor: pointer;
+            padding: 15px 0px 15px 0px;
+            font-size: 13px;
+        }
+        button:focus {
+            outline: 0;
+        }
+        #content {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 20px 40px 0px 40px;
+            background-color: #8e8d8d0d;
+        }
+        #content1 {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            font-size: 16px;
+            padding-top: 40px;
+            text-align: center;
+        }
+        #last_cont {
+            display: flex;
+            flex-direction: column;
+            padding: 20px 0px 0px 0px;
+            width: 100%;
+            align-items: center;
+            background-color: #8e8d8d0d;
+        }
+        .last_cont1 {
+            font-size: 30px;
+            font-weight: bold;
+            padding: 0px 0px 40px 0px;
+            text-align: center;
+        }
+        .last_cont2 {
+            display: flex;
+            flex-direction: column;
+            width: 80%;
+            /* text-align: left; */
+        }
+        #sub_cont {
+            display: flex;
+            flex-direction: row;
+            /* justify-content: space-around; */
+        }
+        .arr {
+            width: 50%;
+        }
+        .sub_cont {
+            width: 100%;
+        }
+        #sub_cont li {
+            padding: 5px 0px 5px 0px;
+        }
+        .last_cont3 {
+            text-align: center;
+            padding: 55px 0px 55px 0px;
+            line-height: 30px;
+        }
+        #footer_cont {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            padding: 40px 0px 40px 0px;
+            color: white;
+            /* background-color: #8e8d8d0d; */
+            background-color: black;
+        }
+        #footer_cont li {
+            padding: 0px 5px 0px 0px;
+            font-size: 18px;
+        }
+        #footer_cont a {
+            text-decoration: none;
+            border: 1.49px solid black;
+            /* box-shadow: 5px; */
+            padding: 12px 20px 12px 20px;
+            border-radius: 5px;
+            /* width: 100%; */
+            background-color: #ffbf00;
+            font-size: 12px;
+            font-weight: bold;
+            color: black;
+        }
+        #footer {
+            display: flex;
+            flex-direction: row;
+            padding: 20px 0px 20px 0px;
+            justify-content: space-around;
+        }
+        .footer2 {
+            margin-left: auto;
+        }
+        .footer {
+            padding: 0px 10px 0px 0px;
+        }
+        .footer a {
+            text-decoration: none;
+            color: black;
+        }
+    }
