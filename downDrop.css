@@ -1,0 +1,348 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#body {
+    display: flex;
+    flex-direction: column;
+    margin: 25px 0px 0px 0px;
+    background-image: url("./img/waves.svg");
+}
+
+#MainCont {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 60px 0px 60px;
+    /* width: 100%; */
+    background-color: #9e9e9e33;
+    /* padding: 0px 0px 0px 80px; */
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 0px 10px 0px;
+    margin: 0px 0px 0px 90px;
+}
+
+li {
+    list-style: none;
+}
+
+.header a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#topCont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 0px 0px 100px 0px;
+}
+
+#topText {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    width: 50%;
+    padding: 0px 50px 0px 0px;
+}
+
+.topText1 {
+    display: flex;
+    flex-direction: column;
+    /* line-height: 100px; */
+    font-size: 25px;
+    padding: 0px 0px 0px 80px;
+}
+
+.subtext {
+    font-size: 18px;
+    line-height: 30px;
+    padding: 20px 0px 0px 0px;
+}
+
+.topText2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 90%;
+    padding: 30px 0px 0px 60px;
+}
+
+.topText2 a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    border: 1.49px solid black;
+    /* box-shadow: 5px; */
+    /* margin: 0px 0px 0px 0px; */
+    border-radius: 5px;
+    width: 40%;
+    display: flex;
+    padding: 3px 0px 3px 0px;
+    line-height: 15px;
+}
+
+
+/* .topText2 a img {
+    padding: 20px 50px 0px 0px;
+} */
+
+#topimg {
+    display: flex;
+    width: 100%;
+}
+
+.topimg {
+    background-image: url("./img/hero-bg.png");
+    height: 500px;
+    width: 100%;
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+#sec_cont {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.sec_cont {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.sec_cont span {
+    display: flex;
+    line-height: 25px;
+    /* padding: 0px 20px 0px 0px; */
+}
+
+.sec_cont span img {
+    padding: 0px 20px 0px 0px;
+}
+
+.sub_secont {
+    padding: 0px 0px 0px 45px;
+}
+
+#download {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 400px;
+    padding: 0px 0px 0px 0px;
+    background-color: rgb(255, 193, 7);
+    position: relative;
+    top: 150px;
+}
+
+.phoneimg {
+    height: 500px;
+    width: 60%;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    margin: 0px 0px 0px 50px;
+    position: relative;
+    bottom: 100px;
+}
+
+
+/* #imgpad {
+    height: 600px;
+    background-color: rgb(255, 193, 7);
+} */
+
+.download2 {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    justify-content: center;
+    /* background-color: #FFC107; */
+}
+
+#how_works {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    line-height: 40px;
+}
+
+.how_works1 {
+    font-size: 30px;
+    padding: 0px 0px 25px 0px;
+}
+
+.how_works2 {
+    font-size: 18px;
+    /* padding: 10px 0px 0px 40px; */
+}
+
+.how_works2 span {
+    padding: 5px 7px 5px 7px;
+    border-radius: 100%;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    margin: 0px 25px 0px 0px;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 20px 0px 0px 0px;
+    justify-content: space-around;
+}
+
+.down_links {
+    display: flex;
+    flex-direction: row;
+    /* width: 50%; */
+    font-size: 15px;
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    border: 1.49px solid black;
+    /* box-shadow: 5px; */
+    /* margin: 0px 0px 0px 0px; */
+    border-radius: 5px;
+    width: 50%;
+    display: flex;
+    padding: 5px 0px 5px 0px;
+    line-height: 15px;
+    margin: 0px 0px 0px 8px;
+}
+
+.link1 {
+    width: 45%;
+}
+
+.link2 {
+    width: 50%;
+    line-height: 20px;
+}
+
+#last_container {
+    background-image: url("./img/testimonials-bg.jpg");
+    display: flex;
+    height: 400px;
+    width: 80%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    position: relative;
+    color: black;
+    top: 155px;
+    padding: 40px 0px 0px 0px;
+}
+
+#last_cont {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    width: 80%;
+}
+
+.last_cont1 {
+    font-size: 20px;
+    padding: 0px 0px 40px 0px;
+}
+
+.last_cont2 {
+    font-size: 15px;
+    text-align: center;
+    line-height: 22px;
+}
+
+.carousel-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    padding: 30px 0px 40px 0px;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel-slide {
+    display: flex;
+    flex-direction: row;
+    /* height: 60px; */
+    width: 100%;
+    justify-content: center;
+}
+
+.carousel-slide img {
+    border-radius: 100%;
+}
+
+.last_cont4 {
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+}
+
+.last_cont4 a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    border: 1.49px solid black;
+    /* box-shadow: 5px; */
+    /* margin: 0px 0px 0px 0px; */
+    border-radius: 5px;
+    width: 70%;
+    display: flex;
+    padding: 5px 0px 5px 0px;
+    line-height: 15px;
+    margin: 0px 4px 0px 0px;
+}
+
+#footer {
+    display: flex;
+    flex-direction: row;
+    padding: 20px 60px 30px 60px;
+    justify-content: space-between;
+    position: relative;
+    top: 210px;
+}
+
+#footlog {
+    display: flex;
+}
+
+.footer2 {
+    margin-left: auto;
+}
+
+.footer {
+    padding: 0px 10px 0px 0px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: black;
+}
