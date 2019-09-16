@@ -111,6 +111,17 @@ li {
     background-size: cover;
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.topimg span {
+    width: 35%;
+    font-size: 20px;
+    line-height: 25px;
+    padding: 20px 10px 20px 30px;
+    /* font-weight: bold; */
+    background-color: rgb(255, 193, 7);
 }
 
 #sec_cont {
@@ -192,16 +203,22 @@ li {
 
 .how_works2 {
     font-size: 18px;
+    display: flex;
+    flex-direction: row;
     /* padding: 10px 0px 0px 40px; */
 }
 
-.how_works2 span {
-    padding: 5px 7px 5px 7px;
+.num {
+    padding: 1px 12px 1px 12px;
     border-radius: 100%;
     background-color: black;
     color: white;
     font-size: 12px;
-    margin: 0px 25px 0px 0px;
+    margin: 5px 25px 0px 0px;
+}
+
+.num_cont {
+    padding: 7px 0px 0px 0px;
 }
 
 .links {
@@ -334,7 +351,7 @@ li {
     display: flex;
 }
 
-.footer2 {
+.footer3 {
     margin-left: auto;
 }
 
@@ -345,4 +362,312 @@ li {
 .footer a {
     text-decoration: none;
     color: black;
+}
+
+@media only screen and (max-width:500px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    #body {
+        display: flex;
+        flex-direction: column;
+        margin: 25px 0px 0px 0px;
+        background-image: url("./img/waves.svg");
+    }
+    #header {
+        display: flex;
+        flex-direction: row;
+        padding: 0px 0px 10px 0px;
+        margin: 0px 0px 0px 20px;
+    }
+    #MainCont {
+        display: flex;
+        flex-direction: column;
+        margin: 10px 20px 0px 20px;
+        /* width: 100%; */
+        background-color: #9e9e9e33;
+        /* padding: 0px 0px 0px 80px; */
+    }
+    #topCont {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 100%;
+        padding: 0px 0px 10px 0px;
+    }
+    #topText {
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        justify-content: center;
+        width: 90%;
+        padding: 0px 10px 0px 0px;
+    }
+    .topText1 {
+        display: flex;
+        flex-direction: column;
+        /* line-height: 100px; */
+        font-size: 22px;
+        padding: 0px 0px 0px 10px;
+    }
+    .subtext {
+        font-size: 18px;
+        line-height: 30px;
+        padding: 20px 0px 0px 0px;
+    }
+    .topText2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 100%;
+        padding: 30px 0px 30px 0px;
+    }
+    .topText2 a {
+        text-decoration: none;
+        color: black;
+        font-size: 12px;
+        font-weight: bold;
+        border: 1.49px solid black;
+        /* box-shadow: 5px; */
+        /* margin: 0px 0px 0px 0px; */
+        border-radius: 5px;
+        width: 40%;
+        display: flex;
+        padding: 3px 3px 3px 3px;
+        line-height: 15px;
+    }
+    .topimg {
+        background-image: url("./img/hero-bg.png");
+        height: 450px;
+        width: 100%;
+        /* background-attachment: fixed; */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+    .topimg span {
+        width: 91%;
+        font-size: 20px;
+        line-height: 25px;
+        padding: 20px 0px 20px 30px;
+        /* font-weight: bold; */
+        background-color: rgb(255, 193, 7);
+    }
+    #sec_cont {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-evenly;
+        padding: 0px 10px 0px 10px;
+    }
+    .sec_cont {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        padding: 10px 0px 0px 0px;
+    }
+    .sec_cont span {
+        display: flex;
+        line-height: 23px;
+        /* padding: 0px 20px 0px 0px; */
+    }
+    .sec_cont span img {
+        padding: 0px 25px 0px 0px;
+    }
+    .sub_secont {
+        padding: 0px 0px 0px 57px;
+    }
+    #download {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+        /* align-items: flex-end; */
+        width: 95%;
+        height: 530px;
+        padding: 50px 0px 0px 15px;
+        background-color: rgb(255, 193, 7);
+        position: relative;
+        top: 30px;
+    }
+    #how_works {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        line-height: 25px;
+    }
+    .how_works1 {
+        font-size: 23px;
+        padding: 0px 0px 25px 0px;
+        font-weight: lighter;
+    }
+    .how_works2 {
+        font-size: 18px;
+        width: 100%;
+        /* padding: 10px 0px 0px 40px; */
+    }
+    .num {
+        padding: 10px 10px 0px 10px;
+        border-radius: 100%;
+        background-color: black;
+        color: white;
+        font-size: 13px;
+        margin: 5px 25px 0px 0px;
+    }
+    .num_cont {
+        padding: 7px 0px 0px 0px;
+    }
+    /* #imgpad {
+        height: 600px;
+        background-color: rgb(255, 193, 7);
+    } */
+    .download2 {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        justify-content: center;
+        /* background-color: #FFC107; */
+    }
+    .links {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        padding: 20px 0px 0px 0px;
+        justify-content: space-around;
+    }
+    .down_links {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+        padding: 0px 0px 30px 0px;
+    }
+    .links a {
+        text-decoration: none;
+        color: black;
+        font-size: 12px;
+        font-weight: bold;
+        border: 1.49px solid black;
+        /* box-shadow: 5px; */
+        /* margin: 0px 0px 0px 0px; */
+        border-radius: 5px;
+        width: 100%;
+        display: flex;
+        padding: 3px 3px 3px 3px;
+        line-height: 15px;
+    }
+    .link1 {
+        width: 100%;
+    }
+    .link2 {
+        width: 100%;
+        line-height: 20px;
+    }
+    .phoneimg {
+        height: 30%;
+        width: 80%;
+        /* background-attachment: fixed; */
+        display: flex;
+        margin: 0px 0px 0px 50px;
+        position: relative;
+        bottom: 10px;
+    }
+    #last_container {
+        background-image: url("./img/testimonials-bg.jpg");
+        display: flex;
+        justify-content: center;
+        height: 600px;
+        width: 90%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        position: relative;
+        color: black;
+        top: 0px;
+        padding: 10px 0px 0px 0px;
+        margin: 0px 20px 0px 20px;
+    }
+    #last_cont {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        width: 100%;
+    }
+    .last_cont1 {
+        font-size: 12px;
+        padding: 30px 0px 30px 0px;
+    }
+    .last_cont2 {
+        font-size: 18px;
+        text-align: center;
+        line-height: 22px;
+    }
+    .carousel-container {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin: 0px 0px 0px 0px;
+        padding: 30px 0px 40px 0px;
+        overflow: hidden;
+        position: relative;
+    }
+    .carousel-slide {
+        display: flex;
+        flex-direction: row;
+        /* height: 60px; */
+        width: 100%;
+        justify-content: center;
+    }
+    .carousel-slide img {
+        border-radius: 100%;
+        width: 15%;
+    }
+    .last_cont4 {
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+    }
+    .last_cont4 a {
+        text-decoration: none;
+        color: black;
+        font-size: 12px;
+        font-weight: bold;
+        border: 1.49px solid black;
+        /* box-shadow: 5px; */
+        /* margin: 0px 0px 0px 0px; */
+        border-radius: 5px;
+        width: 70%;
+        display: flex;
+        padding: 5px 0px 5px 0px;
+        line-height: 15px;
+        margin: 0px 4px 0px 0px;
+    }
+    #footer {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 30px 60px 40px 60px;
+        justify-content: center;
+        position: relative;
+        top: 0px;
+        align-items: center;
+    }
+    #footlog {
+        display: flex;
+        padding: 0px 0px 10px 0px;
+    }
+    .footer3 {
+        margin-left: 0;
+    }
+    .footer {
+        padding: 0px 20px 0px 0px;
+    }
+    .footer a {
+        text-decoration: none;
+        color: black;
+    }
 }
