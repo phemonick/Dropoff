@@ -41,7 +41,7 @@
     }
     
     #bac_img {
-        background-image: url("./Abraj-al-Bait-Towers\ \(1\).jfif");
+        background-image: url("./img/Abraj-al-Bait-Towers\ \(1\).jfif");
         height: 595px;
         /* width: 100%; */
         /* background-attachment: fixed; */
@@ -129,6 +129,7 @@
     
     .hov:hover {
         background-color: white;
+        border-top: 5px solid #FF5722;
     }
     
     #hov_main {
@@ -260,7 +261,14 @@
     #sub_cont {
         display: flex;
         flex-direction: row;
-        /* justify-content: space-around; */
+        height: 30px;
+        width: 50%;
+        padding: 5px 0px 5px 0px;
+        justify-content: space-evenly;
+    }
+    
+    #sub_cont:hover {
+        width: 100%;
     }
     
     .arr {
@@ -274,6 +282,11 @@
     
     .sub_cont {
         width: 100%;
+        display: none;
+    }
+    
+    #sub_cont:hover .sub_cont {
+        display: flex;
     }
     
     .sub_conts {
@@ -351,7 +364,7 @@
     
     @media only screen and (max-width:1185px) {
         #bac_img {
-            background-image: url("./Abraj-al-Bait-Towers\ \(1\).jfif");
+            background-image: url("./img/Abraj-al-Bait-Towers\ \(1\).jfif");
             height: 595px;
             /* width: 100%; */
             /* background-attachment: fixed; */
@@ -476,7 +489,7 @@
     
     @media only screen and (max-width:1080px) {
         #bac_img {
-            background-image: url("./Abraj-al-Bait-Towers\ \(1\).jfif");
+            background-image: url("./img/Abraj-al-Bait-Towers\ \(1\).jfif");
             height: 595px;
             /* width: 100%; */
             /* background-attachment: fixed; */
@@ -604,7 +617,7 @@
     
     @media only screen and (max-width:1070px) {
         #bac_img {
-            background-image: url("./Abraj-al-Bait-Towers\ \(1\).jfif");
+            background-image: url("./img/Abraj-al-Bait-Towers\ \(1\).jfif");
             height: 595px;
             /* width: 100%; */
             /* background-attachment: fixed; */
@@ -739,7 +752,7 @@
             /* background-color: bisque; */
         }
         #bac_img {
-            background-image: url("./Abraj-al-Bait-Towers\ \(1\).jfif");
+            background-image: url("./img/Abraj-al-Bait-Towers\ \(1\).jfif");
             height: 595px;
             /* width: 100%; */
             /* background-attachment: fixed; */
@@ -880,17 +893,32 @@
             padding: 50px 20px 50px 20px;
             line-height: 20px;
             left: -20px;
-            top: 120px;
+            top: 100px;
             /* background-color: white; */
             width: 350px;
             align-items: center;
             font-size: 16px;
             font-weight: 0px;
         }
+        .cond_driv2 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            position: absolute;
+            top: 120px;
+            /* background-color: white; */
+            width: 80%;
+        }
+        .hov {
+            padding: 40px 10px 30px 20px;
+            width: 70%;
+            font-size: 18px;
+            font-weight: bold;
+        }
     }
     /* 400 max width */
     
-    @media only screen and (max-width: 500px) {
+    @media only screen and (max-width: 600px) {
         * {
             margin: 0px;
             padding: 0px;
@@ -922,7 +950,7 @@
             border-radius: 2px;
         }
         #bac_img {
-            background-image: url("./Abraj-al-Bait-Towers\ \(1\).jfif");
+            background-image: url("./img/Abraj-al-Bait-Towers\ \(1\).jfif");
             height: 500px;
             width: 95%;
             /* background-attachment: fixed; */
@@ -1083,12 +1111,14 @@
             /* text-align: left; */
         }
         #sub_cont {
+            height: 100%;
             display: flex;
             flex-direction: column;
             border-top: 1.4px solid #00000030;
             border-bottom: 1px solid #00000030;
             /* justify-content: space-around; */
             padding: 10px 0px 15px 0px;
+            width: 100%;
         }
         .subconthov {
             display: none;
