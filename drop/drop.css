@@ -149,6 +149,10 @@
         z-index: 10;
     }
     
+    .drive_hov #hovmain {
+        display: flex;
+    }
+    
     #hov_main li {
         padding: 5px 0px 5px 0px;
     }
@@ -281,8 +285,12 @@
     }
     
     .sub_cont {
+        display: flex;
+        flex-direction: row;
         width: 100%;
         display: none;
+        padding: 0px 0px 0px 0px;
+        font-size: 14px;
     }
     
     #sub_cont:hover .sub_cont {
@@ -301,6 +309,11 @@
     
     #sub_cont li {
         padding: 5px 0px 5px 0px;
+    }
+    
+    .subcont_text {
+        font-size: 17px;
+        font-weight: bold;
     }
     
     .last_cont3 {
@@ -1129,6 +1142,7 @@
         }
         .sub_cont {
             width: 100%;
+            padding: 20px 0px 0px 0px;
         }
         #sub_cont:hover .subconthov {
             display: flex;
