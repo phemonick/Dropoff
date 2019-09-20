@@ -41,17 +41,17 @@
     }
     
     #bac_img {
-        background-image: url("./img/Abraj-al-Bait-Towers\ \(1\).jfif");
-        height: 595px;
+        background-image: url("./img/img.jpg");
+        height: 100%;
         /* width: 100%; */
         /* background-attachment: fixed; */
-        background-position: center;
+        background-position: 0% 30%;
         background-repeat: no-repeat;
         background-size: cover;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding: 0px 100px 0px 120px;
+        padding: 100px 100px 0px 120px;
         /* align-items: center; */
     }
     
@@ -130,6 +130,7 @@
     .hov:hover {
         background-color: white;
         border-top: 5px solid #FF5722;
+        transition-duration: 0.5s;
     }
     
     #hov_main {
@@ -154,11 +155,11 @@
     }
     
     #hov_main li {
-        padding: 5px 0px 5px 0px;
+        padding: 10px 0px 10px 0px;
     }
     
     .formcontent {
-        padding: 10px 10px 10px 10px;
+        padding: 15px 10px 15px 10px;
         /* width: 100%; */
         width: 305px;
         font-size: 16px;
@@ -178,12 +179,15 @@
         display: flex;
         background-color: white;
         /* width: 100%; */
+        /* transition: display 0.5s; */
     }
     
     .comp_hov:hover #hov_main {
         display: flex;
         background-color: white;
         /* width: 100%; */
+        transition-duration: 0.5s;
+        /* transition: display 0.5s; */
     }
     
     .formcont4 {
@@ -204,7 +208,7 @@
         flex-direction: row;
         justify-content: space-between;
         padding: 20px 100px 20px 100px;
-        background-color: #8e8d8d0d;
+        background-color: #e7e8f1a8;
     }
     
     #content1 {
@@ -243,10 +247,10 @@
     #last_cont {
         display: flex;
         flex-direction: column;
-        padding: 50px 0px 0px 0px;
+        padding: 150px 0px 0px 0px;
         width: 100%;
         align-items: center;
-        background-color: #8e8d8d0d;
+        background-color: #e7e8f1a8;
     }
     
     .last_cont1 {
@@ -266,13 +270,14 @@
         display: flex;
         flex-direction: row;
         height: 30px;
-        width: 50%;
-        padding: 5px 0px 5px 0px;
+        width: 48%;
+        padding: 10px 0px 10px 0px;
         justify-content: space-evenly;
     }
     
     #sub_cont:hover {
         width: 100%;
+        cursor: pointer;
     }
     
     .arr {
@@ -285,16 +290,25 @@
     }
     
     .sub_cont {
-        display: flex;
+        display: none;
         flex-direction: row;
         width: 100%;
-        display: none;
         padding: 0px 0px 0px 0px;
         font-size: 14px;
+        transition-delay: 1ms;
+        color: black;
+        visibility: hidden;
+        opacity: 0;
+        /* transition: visibility 0s, opacity 0.5s linear; */
     }
     
     #sub_cont:hover .sub_cont {
         display: flex;
+        color: black;
+        visibility: visible;
+        opacity: 1;
+        cursor: pointer;
+        /* transition: visibility 0s, opacity 0.5s linear; */
     }
     
     .sub_conts {
@@ -305,6 +319,7 @@
     
     .sub_conts:hover {
         color: #ffbf00;
+        transition: 0.4s;
     }
     
     #sub_cont li {
@@ -377,7 +392,7 @@
     
     @media only screen and (max-width:1185px) {
         #bac_img {
-            background-image: url("./img/Abraj-al-Bait-Towers\ \(1\).jfif");
+            background-image: url("./img/img.jpg");
             height: 595px;
             /* width: 100%; */
             /* background-attachment: fixed; */
@@ -488,7 +503,7 @@
             flex-direction: row;
             justify-content: space-between;
             padding: 20px 40px 20px 40px;
-            background-color: #8e8d8d0d;
+            background-color: #e7e8f1a8;
         }
         #content1 {
             display: flex;
@@ -502,7 +517,7 @@
     
     @media only screen and (max-width:1080px) {
         #bac_img {
-            background-image: url("./img/Abraj-al-Bait-Towers\ \(1\).jfif");
+            background-image: url("./img/img.jpg");
             height: 595px;
             /* width: 100%; */
             /* background-attachment: fixed; */
@@ -616,7 +631,7 @@
             flex-direction: row;
             justify-content: space-between;
             padding: 20px 40px 20px 40px;
-            background-color: #8e8d8d0d;
+            background-color: #e7e8f1a8;
         }
         #content1 {
             display: flex;
@@ -630,7 +645,7 @@
     
     @media only screen and (max-width:1070px) {
         #bac_img {
-            background-image: url("./img/Abraj-al-Bait-Towers\ \(1\).jfif");
+            background-image: url("./img/img.jpg");
             height: 595px;
             /* width: 100%; */
             /* background-attachment: fixed; */
@@ -744,7 +759,7 @@
             flex-direction: row;
             justify-content: space-between;
             padding: 20px 40px 20px 40px;
-            background-color: #8e8d8d0d;
+            background-color: #e7e8f1a8;
         }
         #content1 {
             display: flex;
@@ -765,7 +780,7 @@
             /* background-color: bisque; */
         }
         #bac_img {
-            background-image: url("./img/Abraj-al-Bait-Towers\ \(1\).jfif");
+            background-image: url("./img/img.jpg");
             height: 595px;
             /* width: 100%; */
             /* background-attachment: fixed; */
@@ -886,7 +901,7 @@
             flex-direction: row;
             justify-content: space-between;
             padding: 20px 40px 20px 40px;
-            background-color: #8e8d8d0d;
+            background-color: #e7e8f1a8;
         }
         #content1 {
             display: flex;
@@ -963,7 +978,7 @@
             border-radius: 2px;
         }
         #bac_img {
-            background-image: url("./img/Abraj-al-Bait-Towers\ \(1\).jfif");
+            background-image: url("./img/img.jpg");
             height: 500px;
             width: 95%;
             /* background-attachment: fixed; */
@@ -1093,7 +1108,7 @@
             flex-direction: row;
             justify-content: space-between;
             padding: 20px 40px 0px 40px;
-            background-color: #8e8d8d0d;
+            background-color: #e7e8f1a8;
         }
         #content1 {
             display: flex;
@@ -1109,7 +1124,7 @@
             padding: 20px 0px 0px 0px;
             width: 100%;
             align-items: center;
-            background-color: #8e8d8d0d;
+            background-color: #e7e8f1a8;
         }
         .last_cont1 {
             font-size: 25px;
