@@ -71,24 +71,8 @@ li {
 .topText2 {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
     width: 90%;
     padding: 30px 0px 0px 60px;
-}
-
-.topText2 a {
-    text-decoration: none;
-    color: black;
-    font-size: 12px;
-    font-weight: bold;
-    border: 1.49px solid black;
-    /* box-shadow: 5px; */
-    /* margin: 0px 0px 0px 0px; */
-    border-radius: 5px;
-    width: 40%;
-    display: flex;
-    padding: 3px 0px 3px 0px;
-    line-height: 15px;
 }
 
 
@@ -224,41 +208,26 @@ li {
 .links {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 80%;
     padding: 20px 0px 0px 0px;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .down_links {
     display: flex;
     flex-direction: row;
-    width: 50%;
+    width: 80%;
     font-size: 15px;
 }
 
 .links a {
-    text-decoration: none;
-    color: black;
-    font-size: 12px;
-    font-weight: bold;
-    border: 1.49px solid black;
-    /* box-shadow: 5px; */
-    /* margin: 0px 0px 0px 0px; */
-    border-radius: 5px;
-    width: 50%;
-    display: flex;
-    padding: 5px 0px 5px 0px;
-    line-height: 15px;
-    margin: 0px 0px 0px 8px;
-}
-
-.link1 {
-    width: 45%;
+    width: 100%;
 }
 
 .link2 {
-    width: 50%;
+    width: 100%;
     line-height: 20px;
+    padding: 0px 0px 0px 20px;
 }
 
 #last_container {
@@ -323,19 +292,7 @@ li {
 }
 
 .last_cont4 a {
-    text-decoration: none;
-    color: black;
-    font-size: 12px;
-    font-weight: bold;
-    border: 1.49px solid black;
-    /* box-shadow: 5px; */
-    /* margin: 0px 0px 0px 0px; */
-    border-radius: 5px;
     width: 70%;
-    display: flex;
-    padding: 5px 0px 5px 0px;
-    line-height: 15px;
-    margin: 0px 4px 0px 0px;
 }
 
 #footer {
@@ -402,26 +359,13 @@ li {
         width: 70%;
     }
     .links a {
-        text-decoration: none;
-        color: black;
-        font-size: 12px;
-        font-weight: bold;
-        border: 1.49px solid black;
-        /* box-shadow: 5px; */
-        /* margin: 0px 0px 0px 0px; */
-        border-radius: 5px;
         width: 100%;
-        display: flex;
-        padding: 5px 0px 5px 0px;
-        line-height: 15px;
-        margin: 0px 0px 0px 10px;
-        /* juruvf */
     }
     .link1 {
         width: 50%;
     }
     .link2 {
-        width: 45%;
+        width: 100%;
         line-height: 20px;
         font-size: 14px;
     }
@@ -431,19 +375,7 @@ li {
         width: 40%;
     }
     .last_cont4 a {
-        text-decoration: none;
-        color: black;
-        font-size: 12px;
-        font-weight: bold;
-        border: 1.49px solid black;
-        /* box-shadow: 5px; */
-        /* margin: 0px 0px 0px 0px; */
-        border-radius: 5px;
         width: 70%;
-        display: flex;
-        padding: 5px 0px 5px 0px;
-        line-height: 15px;
-        margin: 0px 4px 0px 0px;
     }
 }
 
@@ -507,18 +439,7 @@ li {
         padding: 30px 0px 30px 0px;
     }
     .topText2 a {
-        text-decoration: none;
-        color: black;
-        font-size: 12px;
-        font-weight: bold;
-        border: 1.49px solid black;
-        /* box-shadow: 5px; */
-        /* margin: 0px 0px 0px 0px; */
-        border-radius: 5px;
-        width: 40%;
-        display: flex;
-        padding: 3px 3px 3px 3px;
-        line-height: 15px;
+        width: 100%;
     }
     .topimg {
         background-image: url("./img/hero-bg.png");
@@ -630,18 +551,7 @@ li {
         padding: 0px 0px 30px 0px;
     }
     .links a {
-        text-decoration: none;
-        color: black;
-        font-size: 12px;
-        font-weight: bold;
-        border: 1.49px solid black;
-        /* box-shadow: 5px; */
-        /* margin: 0px 0px 0px 0px; */
-        border-radius: 5px;
         width: 100%;
-        display: flex;
-        padding: 3px 3px 3px 3px;
-        line-height: 15px;
     }
     .link1 {
         width: 100%;
