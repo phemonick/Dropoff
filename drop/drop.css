@@ -44,9 +44,7 @@
         background-image: url("./img/img.jpg");
         height: 100%;
         /* width: 100%; */
-        /* background-attachment: fixed; */
-        background-position: 0% 30%;
-        background-repeat: no-repeat;
+        background-position: 0% 20%;
         background-size: cover;
         display: flex;
         flex-direction: column;
@@ -143,7 +141,7 @@
         left: -50px;
         top: 81px;
         /* background-color: white; */
-        width: 455px;
+        width: 125%;
         align-items: center;
         font-size: 16px;
         font-weight: 0px;
