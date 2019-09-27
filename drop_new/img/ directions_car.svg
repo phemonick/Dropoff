@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title> Round / Maps / directions_car</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Driver-Landing-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dropoff.ng-driver-landingpage" transform="translate(-132.000000, -990.000000)">
+            <g id="WhyWork" transform="translate(124.000000, 852.000000)">
+                <g id="usp-block" transform="translate(0.000000, 120.000000)">
+                    <g id="Usp1">
+                        <g id="-Round-/-Maps-/-directions_car" transform="translate(0.000000, 8.000000)">
+                            <polygon id="Path" points="0 0 48 0 48 48 0 48"></polygon>
+                            <path d="M23.984,10 C15.152,10 8,17.168 8,26 C8,34.832 15.152,42 23.984,42 C32.832,42 40,34.832 40,26 C40,17.168 32.832,10 23.984,10 Z M24,38.8 C16.928,38.8 11.2,33.072 11.2,26 C11.2,18.928 16.928,13.2 24,13.2 C31.072,13.2 36.8,18.928 36.8,26 C36.8,33.072 31.072,38.8 24,38.8 Z M23.648,18 L23.552,18 C22.912,18 22.4,18.512 22.4,19.152 L22.4,26.704 C22.4,27.264 22.688,27.792 23.184,28.08 L29.824,32.064 C30.368,32.384 31.072,32.224 31.392,31.68 C31.728,31.136 31.552,30.416 30.992,30.096 L24.8,26.416 L24.8,19.152 C24.8,18.512 24.288,18 23.648,18 L23.648,18 Z" id="🔹Icon-Color" fill="#FFCC01"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

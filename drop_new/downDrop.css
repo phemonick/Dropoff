@@ -6,9 +6,9 @@
 #body {
     display: flex;
     flex-direction: column;
-    margin: 25px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
     background-image: url("./img/waves.svg");
-    /* width: 100%; */
+    font-family: Helvetica,Arial,sans-serif;
     background-position: 100% 0%;
     background-repeat: no-repeat;
 }
@@ -16,7 +16,7 @@
 #MainCont {
     display: flex;
     flex-direction: column;
-    margin: 20px 60px 0px 60px;
+    margin: 0px 60px 0px 60px;
     /* width: 100%; */
     background-color: #9e9e9e33;
     /* padding: 0px 0px 0px 80px; */
@@ -25,12 +25,25 @@
 #header {
     display: flex;
     flex-direction: row;
-    padding: 0px 0px 10px 0px;
-    margin: 0px 0px 0px 90px;
+    align-items: center;
+    margin: 10px 0px 10px 60px;
 }
 
 li {
     list-style: none;
+}
+
+a {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+img {
+    margin: 0px;
+    padding: 0px;
+    border: none;
 }
 
 .header a {
@@ -43,18 +56,24 @@ li {
 #topCont {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
     width: 100%;
     padding: 0px 0px 170px 0px;
+}
+
+.textContainer {
+    display: flex;
+    justify-content: center;
+    width: 45%;
 }
 
 #topText {
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
+    align-items: center;
     justify-content: center;
-    width: 50%;
-    padding: 0px 50px 0px 0px;
+    width: 68%;
+    padding: 0px 0px 0px 37px;
 }
 
 .topText1 {
@@ -62,20 +81,29 @@ li {
     flex-direction: column;
     /* line-height: 100px; */
     font-size: 25px;
-    padding: 0px 0px 0px 80px;
+    /* padding: 0px 0px 0px 80px;*/
+}
+
+.topText1 h1 {
+    font-size: 56px;
+    line-height: 56px;
+    font-family: Helvetica;
+    font-weight: 400;
 }
 
 .subtext {
-    font-size: 18px;
-    line-height: 30px;
-    padding: 20px 0px 0px 0px;
+    font-family: Helvetica;
+    font-weight: 100;
+    font-size: 21px;
+    line-height: 32px;
+    padding: 24px 0px 13px 0px;
 }
 
 .topText2 {
     display: flex;
     flex-direction: row;
-    width: 90%;
-    padding: 30px 0px 0px 60px;
+    width: 100%;
+    padding: 30px 0px 0px 0px;
 }
 
 
@@ -85,15 +113,13 @@ li {
 
 #topimg {
     display: flex;
-    width: 100%;
+    width: 70%;
 }
 
 .topimg {
     background-image: url("./img/hero-bg.png");
     height: 500px;
     width: 100%;
-    /* background-attachment: fixed; */
-    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -103,12 +129,12 @@ li {
 }
 
 .topimg span {
-    width: 35%;
-    font-size: 20px;
-    line-height: 25px;
+    width: 39%;
+    font-size: 21px;
+    line-height: 27px;
     padding: 20px 10px 20px 30px;
-    /* font-weight: bold; */
-    background-color: rgb(255, 193, 7);
+    font-weight: 400;
+    background-color: #FFCC01;
 }
 
 #sec_cont {
@@ -120,8 +146,19 @@ li {
 
 .sec_cont {
     display: flex;
-    flex-direction: column;
     width: 30%;
+}
+
+.shortDesc {
+    display: flex;
+    flex-direction: column;
+    padding: 6px 0px 0 21px;
+}
+
+.shortDesc h3 {
+    margin-bottom: 13px;
+    font-size: 21px;
+    line-height: 32px;
 }
 
 .sec_cont span {
@@ -135,7 +172,7 @@ li {
 }
 
 .sub_secont {
-    padding: 0px 0px 0px 45px;
+    /* padding: 0px 0px 0px 45px; */
 }
 
 #download {
@@ -188,6 +225,14 @@ li {
     padding: 0px 0px 25px 0px;
 }
 
+.how_works1 h3 {
+    font-family: Helvetica;
+    font-size: 32px;
+    color: #000000;
+    line-height: 48px;
+    font-weight: 300;
+}
+
 .how_works2 {
     font-size: 18px;
     display: flex;
@@ -196,16 +241,22 @@ li {
 }
 
 .num {
-    padding: 1px 12px 1px 12px;
-    border-radius: 100%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
     background-color: black;
     color: white;
     font-size: 12px;
-    margin: 5px 25px 0px 0px;
+    margin: 0 11px 12px 0;
 }
 
 .num_cont {
-    padding: 7px 0px 0px 0px;
+    font-size: 21px;
+    line-height: 32px;
+    font-weight: 100;
 }
 
 .links {
@@ -229,7 +280,9 @@ li {
 
 .link2 {
     width: 100%;
-    line-height: 20px;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 100;
     padding: 0px 0px 0px 20px;
 }
 
@@ -237,10 +290,11 @@ li {
     background-image: url("./img/testimonials-bg.jpg");
     display: flex;
     height: 400px;
-    width: 80%;
+    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
+    justify-content: center;
     position: relative;
     color: black;
     top: 155px;
@@ -261,9 +315,10 @@ li {
 }
 
 .last_cont2 {
-    font-size: 15px;
+    font-size: 16px;
     text-align: center;
-    line-height: 22px;
+    line-height: 24px;
+    font-weight: 300;
 }
 
 .carousel-container {
@@ -432,9 +487,11 @@ li {
         padding: 0px 0px 0px 10px;
     }
     .subtext {
-        font-size: 18px;
-        line-height: 30px;
-        padding: 20px 0px 0px 0px;
+        font-family: Helvetica;
+        font-weight: 100;
+        font-size: 21px;
+        line-height: 32px;
+        padding: 24px 0px 13px 0px;
     }
     .topText2 {
         display: flex;
@@ -625,6 +682,14 @@ li {
         border-radius: 100%;
         width: 15%;
     }
+    .carouseltext {
+        margin-left: 16px;
+    }
+    .carouseltext h3 {
+        margin-bottom: 5px;
+        font-size: 16px;
+        line-height: 24px;
+    }
     .last_cont4 {
         display: flex;
         flex-direction: row;
@@ -667,5 +732,8 @@ li {
     .footer a {
         text-decoration: none;
         color: black;
+    }
+    .spaceBtn {
+        margin-right: 8px;
     }
 }
