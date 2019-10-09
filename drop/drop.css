@@ -11,6 +11,7 @@
         display: flex;
         flex-direction: column;
         margin: 0px 60px 0px 60px;
+        font-family: 'Maven Pro', sans-serif;
         /* background-color: #e7e8f1a8; */
         /* background-color: bisque; */
     }
@@ -23,6 +24,7 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        align-items: center;
         margin: 30px 0px 30px 0px;
     }
     
@@ -93,13 +95,15 @@
     }
     
     #text4 {
-        background-color: #ffbf00;
+        background-color: #FFCC01;
         /* color: black; */
         padding: 30px 0px 50px 50px;
+        background-image: url(./img/waves.svg);
+        background-position: right top;
+        background-repeat: no-repeat;
+        background-size: 375px;
         width: 40%;
         position: relative;
-        /* line-height: 10px; */
-        /* bottom: 70px; */
     }
     
     .cond_driv1 {
