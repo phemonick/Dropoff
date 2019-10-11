@@ -268,11 +268,25 @@
         font-size: 40px;
         color: #000000;
     }
-    
-    .carousel-but {
+    /* .carousel-but {
         list-style: circle;
         color: #ffbf00;
         background-color: #ffbf00;
+    } */
+    
+    #carousel-but li::before {
+        content: "\2022";
+        /* Add content: \2022 is the CSS Code/unicode for a bullet */
+        color: #ffbf00;
+        /* Change the color */
+        font-weight: bold;
+        /* If you want it to be bold */
+        display: inline-block;
+        /* Needed to add space between the bullet and the text */
+        /* width: 1em; */
+        /* Also needed for space (tweak if needed) */
+        margin-left: -1em;
+        /* Also needed for space (tweak if needed) */
     }
     
     #last_cont {
@@ -433,7 +447,7 @@
             flex-direction: row;
             justify-content: space-evenly;
             position: absolute;
-            top: 50%;
+            top: 58%;
             /* background-color: white; */
             width: 80%;
         }
@@ -445,7 +459,7 @@
             padding: 60px 0px 50px 0px;
             line-height: 20px;
             left: -50px;
-            top: 93%;
+            top: 100%;
             /* background-color: white; */
             width: 125%;
             align-items: center;
