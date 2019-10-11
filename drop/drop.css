@@ -24,7 +24,7 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        margin: 30px 0px 10px 0px;
+        margin: 20px 0px;
         align-items: center;
     }
     
@@ -41,11 +41,18 @@
         font-size: 16px;
         font-weight: bold;
     }
+
+    .header2 a {
+        border: 1.49px solid black;
+        padding: 10px 25px;
+        border-radius: 2px;
+        font-size: 14px;
+    }
     
     #bac_img {
         background-image: url("./img/img.jpg");
         height: 100%;
-        /* width: 100%; */
+        background-color: antiquewhite;
         background-position: 0% 20%;
         background-size: cover;
         display: flex;
@@ -64,13 +71,13 @@
     }
     
     #text1 {
-        font-size: 55px;
+        font-size: 50px;
         line-height: 50px;
         /* padding: 0px 10px 0px 0px; */
     }
     
     #text2 {
-        font-size: 20px;
+        font-size: 18px;
         line-height: 25px;
         padding: 20px 0px 0px 0px;
     }
@@ -99,17 +106,17 @@
     #text4 {
         background-color: #ffbf00;
         background-image: url("./img/waves.svg");
-        /* color: black; */
+        background-position: right top;
+        background-size: 375px;
+        background-repeat: no-repeat;
         padding: 30px 0px 50px 50px;
         width: 40%;
         position: relative;
-        /* line-height: 10px; */
-        /* bottom: 70px; */
     }
     
     .cond_driv1 {
         line-height: 50px;
-        font-size: 35px;
+        font-size: 32px;
         padding: 0px 0px 30px 0px;
     }
     
