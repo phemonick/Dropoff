@@ -1,2 +1,0 @@
-# Dropoff
-Mockup design implementation
