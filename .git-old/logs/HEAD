@@ -1,0 +1,34 @@
+0000000000000000000000000000000000000000 89e5de9a04f1531cdb26fe063b6b943408dd5041 walleyjs <rajiolawale2020@gmail.com> 1568582510 +0100	commit (initial): pc design completed
+89e5de9a04f1531cdb26fe063b6b943408dd5041 338d77eaccea885f7d5a6057fca3aef05e78290a walleyjs <rajiolawale2020@gmail.com> 1568583167 +0100	pull --allow-unrelated-histories origin master: Merge made by the 'recursive' strategy.
+338d77eaccea885f7d5a6057fca3aef05e78290a 54b075ef98a242b8bd6c53d379bdb5760cff86e6 walleyjs <rajiolawale2020@gmail.com> 1568583703 +0100	commit: rearranged the files into diff folders
+54b075ef98a242b8bd6c53d379bdb5760cff86e6 9bc650643d137ab8c2a90fb4889de32e7be204de walleyjs <rajiolawale2020@gmail.com> 1568665546 +0100	commit: designed mobile view for drop_new
+9bc650643d137ab8c2a90fb4889de32e7be204de d43d772245a6e275dc06e9e9ec214374631d46e3 walleyjs <rajiolawale2020@gmail.com> 1568746072 +0100	commit: media queries
+d43d772245a6e275dc06e9e9ec214374631d46e3 0393b2524cd39a468db26285aa32333eee22cf19 walleyjs <rajiolawale2020@gmail.com> 1568789510 +0100	commit: did some editing
+0393b2524cd39a468db26285aa32333eee22cf19 adfb53b04e68a9519d22c0abaa888e282a6c792b walleyjs <rajiolawale2020@gmail.com> 1568801602 +0100	commit: id more editing
+adfb53b04e68a9519d22c0abaa888e282a6c792b 450319ddb7e44fe4dc223572f7d6e1d018fa2aab walleyjs <rajiolawale2020@gmail.com> 1569008394 +0100	commit: edited some parts
+450319ddb7e44fe4dc223572f7d6e1d018fa2aab ea8ef86d95825b37e6c01841d1dc8d6415d9f31f walleyjs <rajiolawale2020@gmail.com> 1569012296 +0100	commit: editt
+ea8ef86d95825b37e6c01841d1dc8d6415d9f31f 4b45017dc5042a6f079f82de0d76c37f43bc32d3 walleyjs <rajiolawale2020@gmail.com> 1569079502 +0100	commit: touched
+4b45017dc5042a6f079f82de0d76c37f43bc32d3 06addc69373f015007646ffeb2371d0727a45162 walleyjs <rajiolawale2020@gmail.com> 1569438368 +0100	commit: adjusted size
+06addc69373f015007646ffeb2371d0727a45162 7eb01f66ced1f9090694569da922d1c312307057 walleyjs <rajiolawale2020@gmail.com> 1569614092 +0100	pull origin master: Merge made by the 'recursive' strategy.
+7eb01f66ced1f9090694569da922d1c312307057 0d79199467cbc732cd9ee631f1c20f4cae1c6fd1 walleyjs <rajiolawale2020@gmail.com> 1569624262 +0100	commit: edited the mobile view
+0d79199467cbc732cd9ee631f1c20f4cae1c6fd1 0d79199467cbc732cd9ee631f1c20f4cae1c6fd1 walleyjs <rajiolawale2020@gmail.com> 1570469321 +0100	checkout: moving from master to gh-pages
+0d79199467cbc732cd9ee631f1c20f4cae1c6fd1 20d5170832656043180b6e365acfe4395d5f442f walleyjs <rajiolawale2020@gmail.com> 1570471790 +0100	commit: fnts
+20d5170832656043180b6e365acfe4395d5f442f 20d5170832656043180b6e365acfe4395d5f442f walleyjs <rajiolawale2020@gmail.com> 1570726958 +0100	checkout: moving from gh-pages to newdrop
+20d5170832656043180b6e365acfe4395d5f442f 6c86542f16aeab221a6e690c0c9f7c4520eb14fc walleyjs <rajiolawale2020@gmail.com> 1570727009 +0100	commit: update
+6c86542f16aeab221a6e690c0c9f7c4520eb14fc 52f6ba502a430c23569d9b657db3aee88c45929d walleyjs <rajiolawale2020@gmail.com> 1570770891 +0100	commit: newupdate
+52f6ba502a430c23569d9b657db3aee88c45929d 79407deaff520a1bc23d266bb97c0be82bc217b2 walleyjs <rajiolawale2020@gmail.com> 1570771860 +0100	commit: made some changes
+79407deaff520a1bc23d266bb97c0be82bc217b2 b951a2a7353beb44ceca17a6d2ca0fcd2c2bd66e walleyjs <rajiolawale2020@gmail.com> 1570771966 +0100	pull: Merge made by the 'recursive' strategy.
+b951a2a7353beb44ceca17a6d2ca0fcd2c2bd66e 4203baeddb6e48e8eccbc05984d5867893968ea4 walleyjs <rajiolawale2020@gmail.com> 1570795968 +0100	commit: added the round button
+4203baeddb6e48e8eccbc05984d5867893968ea4 fef187e28e19781acddf273a38eed7b9f47f00e7 walleyjs <rajiolawale2020@gmail.com> 1570796776 +0100	commit: style
+fef187e28e19781acddf273a38eed7b9f47f00e7 cf1a6b60ecfae52e7cc9c074e45a5c60c5078fb4 walleyjs <rajiolawale2020@gmail.com> 1570889630 +0100	commit: new changes
+fef187e28e19781acddf273a38eed7b9f47f00e7 b23c502c3135f65c57dc971061b6cd005d4aec6c walleyjs <rajiolawale2020@gmail.com> 1570889655 +0100	commit: new changes
+b23c502c3135f65c57dc971061b6cd005d4aec6c 4ea01e41a42df09dc75c4382ee3cc643fd5da430 walleyjs <rajiolawale2020@gmail.com> 1570889718 +0100	pull --rebase origin gh-pages: checkout 4ea01e41a42df09dc75c4382ee3cc643fd5da430
+4ea01e41a42df09dc75c4382ee3cc643fd5da430 5a08975babdc5972113e71f4e8193fc09c04f06e walleyjs <rajiolawale2020@gmail.com> 1570889718 +0100	pull --rebase origin gh-pages: new changes
+5a08975babdc5972113e71f4e8193fc09c04f06e 5a08975babdc5972113e71f4e8193fc09c04f06e walleyjs <rajiolawale2020@gmail.com> 1570889718 +0100	rebase finished: returning to refs/heads/newdrop
+5a08975babdc5972113e71f4e8193fc09c04f06e 3ba1c68d32ee9d3de1a89ef26e4163f672552a7a walleyjs <rajiolawale2020@gmail.com> 1570904062 +0100	commit: alot of changes
+5a08975babdc5972113e71f4e8193fc09c04f06e d2110218b38309f9a88163ecf6ebc267c305408b walleyjs <rajiolawale2020@gmail.com> 1570904069 +0100	commit: alot of changes
+5a08975babdc5972113e71f4e8193fc09c04f06e 62ea7f8cce2ddaf83c16ef580ce9f8afdb5c526d walleyjs <rajiolawale2020@gmail.com> 1570904103 +0100	commit: alot of changes
+62ea7f8cce2ddaf83c16ef580ce9f8afdb5c526d 161baa61024aab470b3f404134e115cb35512903 walleyjs <rajiolawale2020@gmail.com> 1571077091 +0100	commit: completed slider
+161baa61024aab470b3f404134e115cb35512903 46e44bd231d728752306f9374d52658f0d9efc40 walleyjs <rajiolawale2020@gmail.com> 1571079514 +0100	commit: media queries
+161baa61024aab470b3f404134e115cb35512903 1ab19dee544e3396b33ac6ba332af556fbe849be walleyjs <rajiolawale2020@gmail.com> 1571079544 +0100	commit: media queries
+1ab19dee544e3396b33ac6ba332af556fbe849be 5c91783bd059d8e5e6e7914a69442fb559cfba69 walleyjs <rajiolawale2020@gmail.com> 1571079712 +0100	commit: edited media queries

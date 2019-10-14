@@ -1,0 +1,4 @@
+0000000000000000000000000000000000000000 0d79199467cbc732cd9ee631f1c20f4cae1c6fd1 walleyjs <rajiolawale2020@gmail.com> 1570469299 +0100	fetch: storing head
+0d79199467cbc732cd9ee631f1c20f4cae1c6fd1 20d5170832656043180b6e365acfe4395d5f442f walleyjs <rajiolawale2020@gmail.com> 1570471838 +0100	update by push
+20d5170832656043180b6e365acfe4395d5f442f 3e2c841cc4856e5c3a7d4e0cbab395ac0c89db00 walleyjs <rajiolawale2020@gmail.com> 1570771966 +0100	pull: fast-forward
+3e2c841cc4856e5c3a7d4e0cbab395ac0c89db00 4ea01e41a42df09dc75c4382ee3cc643fd5da430 walleyjs <rajiolawale2020@gmail.com> 1570889718 +0100	pull --rebase origin gh-pages: fast-forward
